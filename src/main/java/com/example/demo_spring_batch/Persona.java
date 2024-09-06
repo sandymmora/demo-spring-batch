@@ -38,4 +38,8 @@ public class Persona {
         this.phone = phone;
     }
 
+    @Override
+    public String toString() {
+        return "Persona [firstName=" + firstName + ", lastName=" + lastName + ", phone=" + phone + "]";
+    }
 }
